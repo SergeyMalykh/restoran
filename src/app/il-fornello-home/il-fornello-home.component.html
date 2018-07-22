@@ -1,0 +1,168 @@
+<head>
+
+  <title>Ristorante Il Fornello</title>
+
+</head>
+
+
+
+<body>
+
+
+
+  <header class="header-container">
+    <div class="container">
+      <div class="row">
+        <div class="header-inner-container col-lg-8">
+          <h1 class="header-text-h1">Ristorante Il Fornello</h1>
+          <p style="padding:40px;"></p>
+          <p class="header-text-p">Simple, fresh ingredients, prepared and cooked with love and passion become truly great dishes, from wood-oven
+            baked Neapolitan style pizzas to pastas, entrees!</p>
+        </div>
+        <div class="col-lg-4">
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="container">
+    <div class="container-fluid main-items-container">
+      <div class="divider-line-bottom item-blocks row">
+        <div class="col-lg-3 item-blocks-header float-right">
+          <p style="padding:20px;"></p>
+          <h3 align=center class="text-weight">Our Unique Culinary Creations</h3>
+        </div>
+        <div class="col-lg-9">
+          <h2 class="text-weight">Fichipizza</h2>
+          <p>A unique combination of Mediterranean and Italian pizza, topped with Mascarphone, proscuitto, figs, grando panado,
+            honey and arugula.</p>
+          <p>
+            <a href="#">More &raquo;</a>
+          </p>
+        </div>
+      </div>
+      <div class="divider-line-bottom item-blocks row">
+        <div class="col-lg-3 item-blocks-header">
+          <p style="padding:20px;"></p>
+          <h3 align=center class="text-weight">This Month's Promotions</h3>
+        </div>
+        <div class="col-lg-9">
+          <h2 class="text-weight">Weekend Grand Buffet</h2>
+          <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main
+            entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+          <p>
+            <a href="#">More &raquo;</a>
+          </p>
+        </div>
+      </div>
+      <div class="item-blocks row">
+        <div class="col-lg-3 item-blocks-header float-right">
+          <p style="padding:20px;"></p>
+          <h3 align=center class="text-weight">Meet our Culinary Specialists</h3>
+        </div>
+        <div class="col-lg-9">
+          <h2 class="text-weight">Tommy McHugh</h2>
+          <h4 class="text-subtitle">Executive Chef</h4>
+          <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in
+            the culinary world, he specializes in creating mouthwatering Mediterranean-Italian experiences. </p>
+          <p>
+            <a href="#">More &raquo;</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="">
+        <app-il-fornello-menu [inputFormGroup]="rootFormGroup.controls.tabMenu"></app-il-fornello-menu>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="bottom-container row">
+          <div class="bottom-links col-lg-3 col-md-6 bottom-container-chunk">
+            <h5>Links</h5>
+            <ul class="cancel-ul-style">
+              <li>
+                <a href="#/ilfornello/home">Home</a>
+              </li>
+              <li>
+                <a href="#/ilfornello/about">About</a>
+              </li>
+              <li>
+                <a href="#/ilfornello/menu">Menu</a>
+              </li>
+
+              <li>
+                <a href="#/ilfornello/contact">Contact</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="bottom-address-contrainer col-lg-5 col-md-6 bottom-container-chunk">
+
+            <h5>Our Address</h5>
+
+            <address>
+
+              214, King Street West
+              <br> Downtown, Toronto
+              <br> ONTARIO
+
+              <br>
+              <i class="material-icons icon-size">phone</i>: +416 1234 5678
+              <br>
+              <i class="material-icons icon-size">business_center</i>: +416 8765 4321
+              <br>
+              <i class="material-icons icon-size">email</i>:
+              <a href="mailto:ilfornello@food.net">ilfornello@food.net</a>
+
+            </address>
+
+          </div>
+
+          <div class="bottom-icons col-lg-4 col-md-12 bottom-container-center">
+
+            <div style="padding: 40px 10px;">
+
+              <a href="#" class="fa fa-google-plus"></a>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="#">
+                <i class="mail-to material-icons icon-size">mail_outline</i>
+              </a>
+              <!-- <a href="http://google.com/+">Google+</a>
+
+            <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
+
+            <a href="http://www.linkedin.com/in/">LinkedIn</a>
+
+            <a href="http://twitter.com/">Twitter</a>
+
+            <a href="http://youtube.com/">YouTube</a>
+
+            <a href="mailto:">Mail</a> -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+
+            <p style="padding:10px;"></p>
+
+            <p align=center>© Copyright 2015 Ristorante Il Fornello</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+  </div>

@@ -1,0 +1,19 @@
+<form [formGroup]="inputFormGroup" *ngIf="inputFormGroup">
+  <div formArrayName="categories">
+    <div *ngFor="let category of formArrayCategories().controls; let indexCategory = index; trackBy: trackByFn">
+      <div [formGroupName]="indexCategory">
+        <div class="form-group chefmenu-block">
+          <div class="chefmenu-title">{{category.value.categoryName}}</div>
+          <div formArrayName="menuItems">
+            <div *ngFor="let menu of category.controls.menuItems.controls; let indexMenu = index; trackByFn">
+              <div [formGroupName]="indexMenu">
+                <div class="chefmenu-header">{{menu.value.itemName}}</div>
+                <div class="chefmenu-text">{{menu.value.itemDescription}} {{menu.value.itemPrice}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
