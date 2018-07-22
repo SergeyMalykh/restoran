@@ -73,17 +73,18 @@ AppComponent = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/@angular/platform-browser.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__il_fornello_il_fornello_component__ = __webpack_require__("./src/app/il-fornello/il-fornello.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__il_fornello_home_il_fornello_home_component__ = __webpack_require__("./src/app/il-fornello-home/il-fornello-home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__il_fornello_about_il_fornello_about_component__ = __webpack_require__("./src/app/il-fornello-about/il-fornello-about.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__il_fornello_menu_il_fornello_menu_component__ = __webpack_require__("./src/app/il-fornello-menu/il-fornello-menu.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__il_fornello_contact_il_fornello_contact_component__ = __webpack_require__("./src/app/il-fornello-contact/il-fornello-contact.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__il_fornello_routing__ = __webpack_require__("./src/app/il-fornello.routing.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/@angular/forms.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__il_fornello_service__ = __webpack_require__("./src/app/il-fornello.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__("./node_modules/@angular/router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/@angular/platform-browser.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__("./src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__il_fornello_il_fornello_component__ = __webpack_require__("./src/app/il-fornello/il-fornello.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__il_fornello_home_il_fornello_home_component__ = __webpack_require__("./src/app/il-fornello-home/il-fornello-home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__il_fornello_about_il_fornello_about_component__ = __webpack_require__("./src/app/il-fornello-about/il-fornello-about.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__il_fornello_menu_il_fornello_menu_component__ = __webpack_require__("./src/app/il-fornello-menu/il-fornello-menu.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__il_fornello_contact_il_fornello_contact_component__ = __webpack_require__("./src/app/il-fornello-contact/il-fornello-contact.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__il_fornello_routing__ = __webpack_require__("./src/app/il-fornello.routing.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__il_fornello_service__ = __webpack_require__("./src/app/il-fornello.service.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -102,24 +103,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var AppModule = (function () {
     function AppModule() {
     }
     return AppModule;
 }());
 AppModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["b" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_3__il_fornello_il_fornello_component__["a" /* IlFornelloComponent */],
-            __WEBPACK_IMPORTED_MODULE_4__il_fornello_home_il_fornello_home_component__["a" /* IlFornelloHomeComponent */],
-            __WEBPACK_IMPORTED_MODULE_5__il_fornello_about_il_fornello_about_component__["a" /* IlFornelloAboutComponent */],
-            __WEBPACK_IMPORTED_MODULE_6__il_fornello_menu_il_fornello_menu_component__["a" /* IlFornelloMenuComponent */],
-            __WEBPACK_IMPORTED_MODULE_7__il_fornello_contact_il_fornello_contact_component__["a" /* IlFornelloContactComponent */]
+            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_5__il_fornello_il_fornello_component__["a" /* IlFornelloComponent */],
+            __WEBPACK_IMPORTED_MODULE_6__il_fornello_home_il_fornello_home_component__["a" /* IlFornelloHomeComponent */],
+            __WEBPACK_IMPORTED_MODULE_7__il_fornello_about_il_fornello_about_component__["a" /* IlFornelloAboutComponent */],
+            __WEBPACK_IMPORTED_MODULE_8__il_fornello_menu_il_fornello_menu_component__["a" /* IlFornelloMenuComponent */],
+            __WEBPACK_IMPORTED_MODULE_9__il_fornello_contact_il_fornello_contact_component__["a" /* IlFornelloContactComponent */]
         ],
-        imports: [__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */], __WEBPACK_IMPORTED_MODULE_8__il_fornello_routing__["a" /* AppRouting */], __WEBPACK_IMPORTED_MODULE_9__angular_forms__["a" /* FormsModule */], __WEBPACK_IMPORTED_MODULE_9__angular_forms__["b" /* ReactiveFormsModule */]],
-        providers: [__WEBPACK_IMPORTED_MODULE_10__il_fornello_service__["a" /* IlFornelloService */]],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */]]
+        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */], __WEBPACK_IMPORTED_MODULE_10__il_fornello_routing__["a" /* AppRouting */], __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */], __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormsModule */], __WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* ReactiveFormsModule */], __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */]],
+        providers: [__WEBPACK_IMPORTED_MODULE_11__il_fornello_service__["a" /* IlFornelloService */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -441,6 +443,7 @@ var _a;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__il_fornello_about_il_fornello_about_component__ = __webpack_require__("./src/app/il-fornello-about/il-fornello-about.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__il_fornello_menu_il_fornello_menu_component__ = __webpack_require__("./src/app/il-fornello-menu/il-fornello-menu.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__il_fornello_contact_il_fornello_contact_component__ = __webpack_require__("./src/app/il-fornello-contact/il-fornello-contact.component.ts");
+/* unused harmony export appRoutes */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRouting; });
 
 

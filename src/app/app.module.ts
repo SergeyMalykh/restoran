@@ -1,5 +1,7 @@
+import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { IlFornelloComponent } from './il-fornello/il-fornello.component';
@@ -8,7 +10,6 @@ import { IlFornelloAboutComponent } from './il-fornello-about/il-fornello-about.
 import { IlFornelloMenuComponent } from './il-fornello-menu/il-fornello-menu.component';
 import { IlFornelloContactComponent } from './il-fornello-contact/il-fornello-contact.component';
 import { AppRouting } from './il-fornello.routing';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { IlFornelloService } from './il-fornello.service';
 
 @NgModule({
@@ -20,7 +21,7 @@ import { IlFornelloService } from './il-fornello.service';
     IlFornelloMenuComponent,
     IlFornelloContactComponent
   ],
-  imports: [BrowserModule, AppRouting, FormsModule, ReactiveFormsModule], // , ModalModule.forRoot(), BsDropdownModule.forRoot()],
+  imports: [BrowserModule, AppRouting, RouterModule, FormsModule, ReactiveFormsModule, RouterModule], // , ModalModule.forRoot(), BsDropdownModule.forRoot()],
   providers: [IlFornelloService],
   bootstrap: [AppComponent]
 })

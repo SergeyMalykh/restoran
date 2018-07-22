@@ -5,7 +5,7 @@ import { IlFornelloAboutComponent } from './il-fornello-about/il-fornello-about.
 import { IlFornelloMenuComponent } from './il-fornello-menu/il-fornello-menu.component';
 import { IlFornelloContactComponent } from './il-fornello-contact/il-fornello-contact.component';
 
-const appRoutes: Routes = [
+export const appRoutes: Routes = [
   { path: 'ilfornello', component: IlFornelloComponent, pathMatch: 'full' },
   {
     path: 'ilfornello/home',

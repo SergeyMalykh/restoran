@@ -19,6 +19,10 @@ You can preview this project at <a href="https://sergeymalykh.github.io/restoran
 
 - Mock design file included [visual.png](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/visual.png).
 
+<div>
+  <img src="https://raw.githubusercontent.com/SergeyMalykh/restoran/master/visual.png">
+</div>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -29,3 +33,24 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 The expected test result:
 
+AppComponent<br/>
+should create the app<br/>
+should have as title 'app'<br/>
+
+IlFornelloAboutComponent<br/>
+should be created<br/>
+
+IlFornelloContactComponent<br/>
+should be created<br/>
+
+IlFornelloHomeComponent<br/>
+should be created<br/>
+
+IlFornelloMenuComponent<br/>
+should be created<br/>
+
+IlFornelloService<br/>
+should be created<br/>
+
+IlFornelloComponent<br/>
+should be created<br/>

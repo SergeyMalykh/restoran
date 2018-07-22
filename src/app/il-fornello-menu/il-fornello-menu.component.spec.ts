@@ -1,6 +1,8 @@
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { IlFornelloMenuComponent } from './il-fornello-menu.component';
+import { FormGroup, FormBuilder } from 'app/ngx-strongly-typed-forms/model';
 
 describe('IlFornelloMenuComponent', () => {
   let component: IlFornelloMenuComponent;
@@ -8,9 +10,9 @@ describe('IlFornelloMenuComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ IlFornelloMenuComponent ]
-    })
-    .compileComponents();
+      declarations: [IlFornelloMenuComponent],
+      imports: [FormsModule, ReactiveFormsModule]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
