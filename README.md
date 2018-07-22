@@ -5,20 +5,19 @@ You can preview this project at <a href="https://sergeymalykh.github.io/restoran
 
 # Task requirements / (interview exam)
 
-ASSIGNMENTS! Please find below, and advise me when you think you can complete it by. Once completed, I would need to book
+- ASSIGNMENTS! Please find below, and advise me when you think you can complete it by. Once completed, I would need to book
   in your onsite interview (1hr).<br/>
-The most common slip up, is that when the solution/code is run, the homepage for the Angular doesn’t look like the attached
+- The most common slip up, is that when the solution/code is run, the homepage for the Angular doesn’t look like the attached
   visual. Please ensure it looks like the attached visual. This is a Front end position, so the solution needs to be as close
   to identical as possible, and you have no time constraints for CSS Stylings etc..<br/>
-They are also looking for Angular best practices (components, etc..).<br/>
-I understand from the Hiring Manager it shouldn’t take more than a few hours to complete each exercise. Please add your completed
+- They are also looking for Angular best practices (components, etc..).<br/>
+- I understand from the Hiring Manager it shouldn’t take more than a few hours to complete each exercise. Please add your completed
   assignments to a Github Repository and send me the links once completed.<br/>
-HTML5 and Angular 2+ A. Starting with index.html, create a homepage that look like the attached visual (visual.png), using
+- HTML5 and Angular 2+ A. Starting with index.html, create a homepage that look like the attached visual (visual.png), using
   Angular 2+, Bootstrap and CSS3. B. Add a row after “Meet our Culinary Specialists” that displays the restaurant’s menu
   in a grid. Demonstrate data binding to an array of JSON objects.<br/>
 
-Mock design file included [visual.png](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/visual.png).
-
+- Mock design file included [visual.png](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/visual.png).
 
 ## Development server
 
