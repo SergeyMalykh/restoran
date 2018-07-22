@@ -13,11 +13,12 @@ You can preview this project at <a href="https://sergeymalykh.github.io/restoran
 - They are also looking for Angular best practices (components, etc..).<br/>
 - I understand from the Hiring Manager it shouldn’t take more than a few hours to complete each exercise. Please add your completed
   assignments to a Github Repository and send me the links once completed.<br/>
-- HTML5 and Angular 2+ A. Starting with index.html, create a homepage that look like the attached visual (visual.png), using
+- HTML5 and Angular 2+ A Starting with [index.html](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/initialdata/index.html), create a homepage that look like the attached visual ([visual.png](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/initialdata/visual.png)), using
   Angular 2+, Bootstrap and CSS3. B. Add a row after “Meet our Culinary Specialists” that displays the restaurant’s menu
   in a grid. Demonstrate data binding to an array of JSON objects.<br/>
 
-- Mock design file included [visual.png](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/visual.png).
+- Mock design file included [visual.png](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/initialdata/visual.png).
+- Initial htmp page incluided [index.html](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/initialdata/index.html).
 
 <div>
   <img src="https://raw.githubusercontent.com/SergeyMalykh/restoran/master/visual.png">
