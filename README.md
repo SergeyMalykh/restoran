@@ -18,10 +18,10 @@ You can preview this project at <a href="https://sergeymalykh.github.io/restoran
   in a grid. Demonstrate data binding to an array of JSON objects.<br/>
 
 - Mock design file included [visual.png](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/initialdata/visual.png).
-- Initial htmp page incluided [index.html](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/initialdata/index.html).
+- Initial html page incluided [index.html](https://raw.githubusercontent.com/SergeyMalykh/restoran/master/initialdata/index.html).
 
 <div>
-  <img src="https://raw.githubusercontent.com/SergeyMalykh/restoran/master/visual.png">
+  <img src="https://raw.githubusercontent.com/SergeyMalykh/restoran/master/initialdata/visual.png">
 </div>
 
 ## Development server
